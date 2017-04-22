@@ -8,3 +8,5 @@
 
 Netlify用のリダイレクトルールは設定されていますので、Netlifyの無料アカウントを利用されるのがよいかもしれません。
 https://www.netlify.com/
+
+![](./img/opt/1.png)
