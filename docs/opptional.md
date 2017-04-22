@@ -31,6 +31,11 @@ https://www.netlify.com/
 
 ![](./img/opt/1.png)
 
-### ほんとうのおまけ
+### X-ray
 X-rayも使えないことはないです。
 - <a href="http://qiita.com/motchi0214/items/203163ddd27a2ae8f10d" >Serverless Frameworkで作ったLambdaにX-Rayのアクティブトレースを適用する - Qiita</a>
+
+
+### 「もっと参考記事よこせ」という方へ
+日本人のコアコミッターがQiitaに記事めっちゃ書いてるんで、それみましょう。
+[@horike37](http://qiita.com/horike37)
