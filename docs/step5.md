@@ -249,3 +249,19 @@ $ npm run build
 $ npm start
 ```
 ログイン後に出る「Get your username」ボタンを押すとユーザー名が取れる
+
+### アクセスする
+`php -S localhost:8000`
+
+#### ユーザー登録
+http://localhost:8000/register
+
+#### アカウントの有効化
+メールに届いた認証コードと登録したユーザー名を使って以下のようなURLを作ってアクセスする。
+
+http://localhost:8000/activation/{USERNAME}/{CODE}
+
+
+#### ログイン
+http://localhost:8000/login
+http://localhost:8000/activation/{USERNAME}/{CODE}
