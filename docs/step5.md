@@ -23,11 +23,11 @@ $ git checkout hands-on/start
 
 ### 2:セットアップする
 
-####ライブラリのインストール
+#### ライブラリのインストール
 ```
 $ npm install
 ```
-####APIのデプロイ
+#### APIのデプロイ
 ```
 $ npm run api-deploy
 ```
@@ -95,8 +95,10 @@ provider:
 ```
 
 ##### コード解説:APIへの認証の設定
-`authorizerFunc`という認証のためのLambda関数を定義しています。
-その後、`http`の設定にて、`authorizer`を追加して、認証に呼び出す関数名と、渡す値を指定しています。
+`authorizerFunc`という認証のためのLambda関数を定義しています。  
+その後、`http`の設定にて、`authorizer`を追加して、認証に呼び出す関数名と、渡す値を指定しています。  
+[より詳しい解説@Qiita](http://qiita.com/horike37/items/7e0984e7729099032930)
+
 ```
 functions:
   authorizerFunc:
